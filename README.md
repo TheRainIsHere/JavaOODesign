@@ -53,12 +53,12 @@ ___________
 ![class descriptions](vehicle_objects.png)
 
 <details>
-     <summary>testVehicle</summary> 
-
-          - Open the Vehicle class and include the missing elements. Use the diagram to help guide you. What you see in the diagrams above shows information regarding the method headers. For example, getManufacturname is the name of one of the methods and returns a String.
-          - The only weird part about this one is the last parameter of the constructor. It requires an Option type. Create a blank Option class now so that you can use it as a type. Note that the instance variable for this will be an array of options.
-          - Other than the Option class, the rest of the tests are strictly getters to check that the instance variables of a Vehicle object are being set properly.
-
+    <summary>testVehicle</summary>
+    <ul>
+        <li>Open the Vehicle class and include the missing elements. Use the diagram to help guide you. What you see in the diagrams above shows information regarding the method headers. For example, getManufacturname is the name of one of the methods and returns a String.</li>
+        <li>The only weird part about this one is the last parameter of the constructor. It requires an Option type. Create a blank Option class now so that you can use it as a type. Note that the instance variable for this will be an array of options.</li>
+        <li>Other than the Option class, the rest of the tests are strictly getters to check that the instance variables of a Vehicle object are being set properly.</li>
+    </ul>
 </details>
 
 <details>
