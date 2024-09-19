@@ -136,7 +136,7 @@ ___________
 
 ## Complete and zip the project
 1. Run and add the code to the src folder until the tests are successful.
-2. Uncomment each test case in the **Test** file (`TestAdvancedClasses.java`), one at a time. 
+2. Uncomment each test case in the **Test** file, one at a time. 
 Do not modify the content in this file except to uncomment the tests. Add and modify class files
 as needed for the tests to pass.
 3. Review and refactor any of the code as needed:
