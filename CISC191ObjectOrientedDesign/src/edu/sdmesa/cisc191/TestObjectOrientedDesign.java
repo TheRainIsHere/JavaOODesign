@@ -53,7 +53,7 @@ class TestObjectOrientedDesign
 //      assertEquals("Moonroof", vehicle.getOptions()[0].getDetails());
 //      assertEquals("Leather", vehicle.getOptions()[1].getDetails());
 //   }
-
+//
 //   @Test
 //   void testCar()
 //   {
@@ -65,7 +65,7 @@ class TestObjectOrientedDesign
 //      assertEquals(4, car.getNumberOfSeats());
 //      assertEquals(2, car.getNumberOfDoors());
 //   }
-
+//
 //   @Test
 //   void testPickupTruck()
 //   {
@@ -77,7 +77,7 @@ class TestObjectOrientedDesign
 //      assertEquals(3, truck.getNumberOfSeats());
 //      assertEquals(1400, truck.getCargoCapacity());
 //   }
-
+//
 //   @Test
 //   void testSportsUtilityVehicle()
 //   {
@@ -89,7 +89,7 @@ class TestObjectOrientedDesign
 //      assertEquals(6, suv.getNumberOfSeats());
 //      assertEquals(4500, suv.getMaxTowingWeight());
 //   }
-
+//
 //   @Test
 //   void testGasCar()
 //   {
@@ -101,7 +101,7 @@ class TestObjectOrientedDesign
 //      assertEquals(4, car.getNumberOfSeats());
 //      assertEquals(2, car.getNumberOfDoors());
 //   }
-
+//
 //   @Test
 //   void testCarIsCombustible()
 //   {
@@ -120,7 +120,7 @@ class TestObjectOrientedDesign
 //	  combustible.addFuel(30);
 //	  assertEquals(50, combustible.getFuelLevel());
 //   }
-
+//
 //   @Test
 //   void testElectricCar()
 //   {
@@ -132,7 +132,7 @@ class TestObjectOrientedDesign
 //      assertEquals(4, car.getNumberOfSeats());
 //      assertEquals(2, car.getNumberOfDoors());
 //   }
-
+//
 //   @Test
 //   void testCarIsChargeable()
 //   {
@@ -150,7 +150,7 @@ class TestObjectOrientedDesign
 //      car.chargeUp(100);
 //      assertEquals(100, car.getBatteryCharge());
 //   }
-
+//
 //   @Test
 //   void testHybridCar()
 //   {
@@ -163,7 +163,7 @@ class TestObjectOrientedDesign
 //      assertEquals(4, car.getNumberOfSeats());
 //      assertEquals(2, car.getNumberOfDoors());
 //   }
-
+//
 //   @Test
 //   void testHybridCarIsCombustibleAndChargeable()
 //   {
