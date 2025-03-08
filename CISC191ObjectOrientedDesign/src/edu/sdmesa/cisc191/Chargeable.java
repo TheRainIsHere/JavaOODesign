@@ -2,27 +2,39 @@ package edu.sdmesa.cisc191;
 
 /**
  * Lead Author(s):
- * @author 
- * @author 
- * <<add additional lead authors here, with a full first and last name>>
- * 
- * Other contributors:
- * <<add additional contributors (mentors, tutors, friends) here, with contact information>>
+ * @author Jade Dunne
  * 
  * References:
  * Morelli, R., & Walde, R. (2016). Java, Java, Java: Object-Oriented Problem Solving.
  * Retrieved from https://open.umn.edu/opentextbooks/textbooks/java-java-java-object-oriented-problem-solving
- * 
- * <<add more references here>>
  *  
- * Version/date: 
+ * Version/date: @version 03.08.25
  * 
  * Responsibilities of class:
- * 
+ * To provide a framework for chargeable vehicles
  */
+
 /**
+ * 
  */
 public interface Chargeable
 {
-	// TODO fill in the methods
+	public int minCharge = 0;
+	public int maxCharge = 100;
+	
+	/**
+	 * 
+	 * @return the current charge of the battery
+	 */
+	abstract int getBatteryCharge();
+	
+	/**
+	 * Set charge level to max
+	 */
+	abstract void chargeUp();
+	/**
+	 * 
+	 * @param charge - the amount to charge the vehicle
+	 */
+	abstract void chargeUp(int charge);
 }
